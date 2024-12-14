@@ -24,7 +24,7 @@ openai.api_key = OPENAI_API_KEY
 pc = Pinecone(api_key=PINECONE_API_KEY)
 
 # Connect to Pinecone index
-index_name = "json-vector-index-test"
+index_name = "json-vector-index"
 index = pc.Index(index_name)
 
 # Functions

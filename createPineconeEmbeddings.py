@@ -16,7 +16,7 @@ pc = Pinecone(
 )
 
 # Create or connect to a Pinecone index
-index_name = "json-vector-index-test"
+index_name = "json-vector-index"
 if index_name not in pc.list_indexes():
     pc.create_index(index_name, dimension=1536,spec=ServerlessSpec(
             cloud="aws",  # Use 'gcp' or 'aws' based on your environment
