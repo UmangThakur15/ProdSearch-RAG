@@ -1,4 +1,4 @@
-# ProdSearch-RAG
+# ProductSearch-AI Assistant
 
 ### AI-Powered Product Search & Q&A with Retrieval-Augmented Generation (RAG)
 
